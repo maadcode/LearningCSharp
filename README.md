@@ -1,6 +1,6 @@
 # Curso básico de C#
 
-Este repositorio open source es creado con la finalidad de explicar conceptos básicos de programación utilizando C#. Aquí encontraras diferentes ejemplos, desde la creacicón de variables hasta programación orientada a objetos, así como algunas nuevas funcionalidades agregadas al lenguaje.
+Este repositorio open source es creado con la finalidad de explicar conceptos de programación utilizando C#. Aquí encontraras diferentes ejemplos, desde la creacicón de variables hasta programación orientada a objetos, así como algunas nuevas funcionalidades agregadas al lenguaje.
 
 ## Requisitos previos
 
@@ -24,6 +24,9 @@ Para ejecutar el proyecto debes tener instalado un entorno de desarrollo integra
 - [Manipulación de archivos y directorios](https://github.com/maadcode/CSharpCourseExamples/blob/master/NativeLibraries/NativeLibrariesExample.cs)
 - [Switch Patterns](https://github.com/maadcode/CSharpCourseExamples/blob/master/Extras/SwitchPatternFeature.cs)
 - [Using Declaration y Static Local Functions](https://github.com/maadcode/CSharpCourseExamples/blob/master/Extras/OthersFeature.cs)
+- [Metodos HTTP](https://github.com/maadcode/CSharpCourseExamples/blob/master/NativeLibraries/Https.cs)
+- [Serializaciones](https://github.com/maadcode/CSharpCourseExamples/blob/master/NativeLibraries/Serializations.cs)
+- [Programacion Funcional](https://github.com/maadcode/CSharpCourseExamples/blob/master/FunctionalProgramming)
 
 ## Contribución
 
