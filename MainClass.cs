@@ -101,6 +101,8 @@ namespace CursoCSharp
 
             //Actions.WithoutParamsExample();
             //Actions.WithParamsExample();
+
+            //Predicates.MethodExample();
             #endregion Functional Programming
         }
     }
