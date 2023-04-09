@@ -44,13 +44,4 @@ Si deseas sugerir mejoras para este proyecto, puedes crear un issue en el reposi
 
 ## License 
 
-Este proyecto está bajo la Licencia Pública General de GNU (GPL). Esto significa que el código fuente de este proyecto es libre para su uso, distribución y modificación, siempre y cuando se cumplan ciertos términos y condiciones. Puedes encontrar una copia de la Licencia GPL en el archivo LICENSE que se encuentra en la raíz del proyecto.
-
-La Licencia GPL tiene varios términos y condiciones importantes que debes tener en cuenta al utilizar este proyecto, incluyendo:
-
-- Cualquier programa que se derive de este proyecto debe ser distribuido bajo los términos de la Licencia GPL.
-- Debe proporcionar acceso al código fuente del programa a cualquier usuario que solicite una copia.
-- Se permite la distribución del código fuente y del programa compilado, pero no se permite cobrar por el código fuente o el programa compilado, excepto por los costos de distribución.
-- La Licencia GPL no ofrece ninguna garantía de ningún tipo, y el propietario del proyecto no es responsable de ningún daño o reclamo que surja del uso de este proyecto.
-
-Al utilizar este proyecto, estás aceptando los términos y condiciones de la Licencia GPL. Si no estás de acuerdo con estos términos, no utilices este proyecto. Si tienes alguna pregunta acerca de la Licencia GPL, por favor, revisa el archivo LICENSE o contacta con el propietario del proyecto.
+Este proyecto está bajo la [Licencia Pública General de GNU (GPL)](https://github.com/maadcode/CSharpCourseExamples/blob/master/LICENSE.txt). Esto significa que el código fuente de este proyecto es libre para su uso, distribución y modificación, siempre y cuando se cumplan ciertos términos y condiciones.
