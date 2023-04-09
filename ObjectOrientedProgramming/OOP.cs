@@ -1,6 +1,6 @@
 ﻿namespace CursoCSharp.ObjectOrientedProgramming
 {
-    public class OOPExample
+    public class OOP
     {
         public static void ObjectsAndClasesExample()
         {

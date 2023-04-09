@@ -2,13 +2,13 @@
 {
     public class Arguments
     {
-        public static void ExampleWithOptionalArguments()
+        public static void OptionalArgumentsExample()
         {
             FunctionWithArguments(20, "Maad");
             FunctionWithArguments(21);
         }
 
-        public static void ExampleWithSpecificNameArguments()
+        public static void SpecificNameArgumentsExample()
         {
             FunctionWithArguments(22, "Maadcode");
             FunctionWithArguments(optional: "Maadcode", number: 22);

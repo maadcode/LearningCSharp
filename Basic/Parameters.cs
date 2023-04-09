@@ -2,29 +2,29 @@
 {
     public class Parameters
     {
-        public static void ExampleWithParams()
+        public static void ParamsExample()
         {
             MethodWithParamsParameters("Maad", "maadcode.dev", 2023, true);
         }
-        public static void ExampleWithObject()
+        public static void ObjectExample()
         {
             Object[] obj = { "Maad", "maadcode.dev", 2023, true };
             MethodWithObjectParameters(obj);
         }
-        public static void ExampleWithRef()
+        public static void RefExample()
         {
             var value = "Hello!";
             MethodWithRefParameter(ref value);
             Console.WriteLine(value);
         }
 
-        public static void ExampleWithIn()
+        public static void InExample()
         {
             var value = "Hello!";
             MethodWithInParameter(value);
             Console.WriteLine(value);
         }
-        public static void ExampleWithOut()
+        public static void OutExample()
         {
             var value = "Hello!";
             MethodWithOutParameter(out value);

@@ -3,11 +3,12 @@
     public abstract class Animal
     {
         private DateTime _dateOfBirth;
+        private string _color;
         public string Name { get; set; }
         public string Color
         {
-            get => Name;
-            set => Name = value;
+            get => _color;
+            set => _color = value;
         }
         public DateTime DateOfBirth { 
             get 

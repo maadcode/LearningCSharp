@@ -4,7 +4,7 @@ namespace CursoCSharp.Intermediate
 {
     public class Collections
     {
-        public static void ExampleWithList()
+        public static void ListExample()
         {
             var countries = new List<string>();
             countries.Add("Perú");
@@ -15,7 +15,7 @@ namespace CursoCSharp.Intermediate
                 Console.WriteLine(country);
             }
         }
-        public static void ExampleWithArrayList()
+        public static void ArrayListExample()
         {
             var dynamicValueList = new ArrayList();
             dynamicValueList.Add("Maad");
@@ -27,7 +27,7 @@ namespace CursoCSharp.Intermediate
                 Console.WriteLine(value);
             }
         }
-        public static void ExampleWithSortedList()
+        public static void SortedListExample()
         {
             var dynamicValueList = new SortedList();
             dynamicValueList.Add(3, "Maad"); // Key, value
@@ -44,7 +44,7 @@ namespace CursoCSharp.Intermediate
                 Console.WriteLine(value);
             }
         }
-        public static void ExampleWithDictionary()
+        public static void DictionaryExample()
         {
             var dictionary = new Dictionary<string, string>();
             dictionary.Add("name", "Maad");
@@ -61,7 +61,7 @@ namespace CursoCSharp.Intermediate
                 Console.WriteLine(value);
             }
         }
-        public static void ExampleWithHashtable()
+        public static void HashtableExample()
         {
             var hash = new Hashtable();
             hash.Add("name", "Maad");
@@ -77,7 +77,7 @@ namespace CursoCSharp.Intermediate
                 Console.WriteLine(value);
             }
         }
-        public static void ExampleWithStack()
+        public static void StackExample()
         {
             var stack = new Stack();
             stack.Push("Maad");
@@ -97,7 +97,7 @@ namespace CursoCSharp.Intermediate
             }
 
         }
-        public static void ExampleWithQueue()
+        public static void QueueExample()
         {
             var queue = new Queue();
             queue.Enqueue("Maad");

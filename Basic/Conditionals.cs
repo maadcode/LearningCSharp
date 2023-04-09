@@ -2,7 +2,7 @@
 {
     public class Conditionals
     {
-        public static void ExampleIfElse()
+        public static void IfElseExample()
         {
             var age = 19;
             if(age >= 18)
@@ -36,7 +36,7 @@
                 Console.WriteLine("Old man");
             }
         }
-        public static void ExampleSwitch()
+        public static void SwitchExample()
         {
             var option = EnumArithmeticOperator.MULTIPLICATION;
             switch (option)
@@ -70,7 +70,7 @@
             };
             Console.WriteLine(result);
         }
-        public static void ExampleTernaryOperator()
+        public static void TernaryOperatorExample()
         {
             var age = 21;
             //Without Ternary operator
@@ -88,7 +88,7 @@
             string response2 = age < 18 ? "Younger" : "Adult";
             Console.WriteLine(response2);
         }
-        public static void ExampleNullCoalescingOperator()
+        public static void NullCoalescingOperatorExample()
         {
             // Without Null Coleascing operator
             string name = null;
@@ -108,7 +108,7 @@
             Console.WriteLine("Without Null Coleascing Operator: " + response2);
         }
 
-        public static void ExampleNullCoalescingAssignment()
+        public static void NullCoalescingAssignmentExample()
         {
             // Without Null Coleascing Assignment
             string name = null;

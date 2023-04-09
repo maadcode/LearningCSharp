@@ -1,10 +1,12 @@
 # Curso básico de C#
 
-## Objetivo
+Este repositorio open source es creado con la finalidad de explicar conceptos básicos de programación utilizando C#. Aquí encontraras diferentes ejemplos, desde la creacicón de variables hasta programación orientada a objetos, así como algunas nuevas funcionalidades agregadas al lenguaje.
 
-Este repositorio open source es creado con la finalidad de explicar conceptos básicos de programación utilizando C#, por lo que puedes hacer uso de este sin restricciones. Aquí encontraras diferentes ejemplos, desde la creacicón de variables hasta programación orientada a objetos, así como algunas nuevas funcionalidades agregas al lenguaje.
+## Requisitos previos
 
-## Lista de conceptos
+Para ejecutar el proyecto debes tener instalado un entorno de desarrollo integrado (IDE) como Visual Studio y el SDK de Net 6.
+
+## Lista de conceptos con ejemplos de código
 
 - [Variables](https://github.com/maadcode/CSharpCourseExamples/blob/master/Basic/Variables.cs)
 - [Condicionales](https://github.com/maadcode/CSharpCourseExamples/blob/master/Basic/Conditionals.cs)
@@ -14,14 +16,41 @@ Este repositorio open source es creado con la finalidad de explicar conceptos b�
 - [Bucles](https://github.com/maadcode/CSharpCourseExamples/blob/master/Basic/Loops.cs)
 - [Argumentos](https://github.com/maadcode/CSharpCourseExamples/blob/master/Basic/Arguments.cs)
 - [Parametros](https://github.com/maadcode/CSharpCourseExamples/blob/master/Basic/Parameters.cs)
-- [Programación Orientada Objetoos](https://github.com/maadcode/CSharpCourseExamples/blob/master/ObjectOrientedProgramming/OOPExample.cs)
+- [Programación Orientada Objetos](https://github.com/maadcode/CSharpCourseExamples/blob/master/ObjectOrientedProgramming/OOPExample.cs)
 - [Colecciones](https://github.com/maadcode/CSharpCourseExamples/blob/master/Intermediate/Collections.cs)
 - [Excepciones](https://github.com/maadcode/CSharpCourseExamples/blob/master/Intermediate/Exceptions.cs)
 - [Generics](https://github.com/maadcode/CSharpCourseExamples/blob/master/Intermediate/Generics.cs)
-- [Manipulación de fechas y archivos](https://github.com/maadcode/CSharpCourseExamples/blob/master/NativeLibraries/NativeLibrariesExample.cs)
+- [Manipulación de fechas](https://github.com/maadcode/CSharpCourseExamples/blob/master/NativeLibraries/NativeLibrariesExample.cs)
+- [Manipulación de archivos y directorios](https://github.com/maadcode/CSharpCourseExamples/blob/master/NativeLibraries/NativeLibrariesExample.cs)
 - [Switch Patterns](https://github.com/maadcode/CSharpCourseExamples/blob/master/Extras/SwitchPatternFeature.cs)
 - [Using Declaration y Static Local Functions](https://github.com/maadcode/CSharpCourseExamples/blob/master/Extras/OthersFeature.cs)
 
-## Colaboración
+## Contribución
 
-Si crees que faltaron algunos conceptos o ejemplos, sientete libre de mandar un pull request para mejorar el repositorio. Por otro lado, si te parece útil la información, agradecería que le asignes una estrella al repositorio para que llegue a más personas.
+### ¿Cómo contribuir?
+
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
+1. Fork del repositorio.
+2. Realiza tus cambios y verifica que todo funcione correctamente.
+3. Crea un Pull Request con una descripción detallada de los cambios realizados.
+4. Espera a que se revise y se apruebe tu Pull Request.
+
+### ¿Cómo sugerir mejoras?
+
+Si deseas sugerir mejoras para este proyecto, puedes crear un issue en el repositorio. Por favor, proporciona una descripción detallada de la mejora que deseas sugerir y cualquier información adicional relevante.
+
+¡Agradecemos cualquier contribución o sugerencia para mejorar este proyecto!
+
+## License 
+
+Este proyecto está bajo la Licencia Pública General de GNU (GPL). Esto significa que el código fuente de este proyecto es libre para su uso, distribución y modificación, siempre y cuando se cumplan ciertos términos y condiciones. Puedes encontrar una copia de la Licencia GPL en el archivo LICENSE que se encuentra en la raíz del proyecto.
+
+La Licencia GPL tiene varios términos y condiciones importantes que debes tener en cuenta al utilizar este proyecto, incluyendo:
+
+- Cualquier programa que se derive de este proyecto debe ser distribuido bajo los términos de la Licencia GPL.
+- Debe proporcionar acceso al código fuente del programa a cualquier usuario que solicite una copia.
+- Se permite la distribución del código fuente y del programa compilado, pero no se permite cobrar por el código fuente o el programa compilado, excepto por los costos de distribución.
+- La Licencia GPL no ofrece ninguna garantía de ningún tipo, y el propietario del proyecto no es responsable de ningún daño o reclamo que surja del uso de este proyecto.
+
+Al utilizar este proyecto, estás aceptando los términos y condiciones de la Licencia GPL. Si no estás de acuerdo con estos términos, no utilices este proyecto. Si tienes alguna pregunta acerca de la Licencia GPL, por favor, revisa el archivo LICENSE o contacta con el propietario del proyecto.

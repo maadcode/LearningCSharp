@@ -27,5 +27,10 @@
             Console.WriteLine("Walking on all fours.");
             Sleep();
         }
+
+        public string ToString()
+        {
+            return $"Objeto Dog llamado {Name}";
+        }
     }
 }

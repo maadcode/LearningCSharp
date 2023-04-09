@@ -2,7 +2,7 @@
 {
     public class Loops
     {
-        public static void ExampleDoWhile()
+        public static void DoWhileExample()
         {
             var count = 0; // try with number 4, will enter the loop only once
             do
@@ -10,7 +10,7 @@
                 Console.WriteLine(count++);
             } while (count <= 3);
         }
-        public static void ExampleWhile()
+        public static void WhileExample()
         {
 
             var count = 0; // try with number 4, will not enter the loop
@@ -19,7 +19,7 @@
                 Console.WriteLine(count++);
             }
         }
-        public static void ExampleFor()
+        public static void ForExample()
         {
             var count = 0;
             for (int i = 0; i <= 3; i++) // iterate a specified number of times
@@ -27,7 +27,7 @@
                 Console.WriteLine(count++);
             }
         }
-        public static void ExampleForeach()
+        public static void ForeachExample()
         {
             var count = 0;
             //It is used to iterate collections.

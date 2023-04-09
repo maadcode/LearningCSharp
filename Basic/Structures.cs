@@ -15,13 +15,13 @@
             DefaultValue = "default";
         }
 
-        public static void ExampleWithConstants()
+        public static void ConstantsExample()
         {
             //Structures.CONSTANTS.LATITUDE = "NEW VALUE"; // can't modify it
             Console.WriteLine(Structures.CONSTANTS.LATITUDE);
         }
 
-        public static void ExampleWithReadonly()
+        public static void ReadonlyExample()
         {
             var structureObject = new Structures();
             //structureObject.DefaultValue = "NEW VALUE"; // can't modify it

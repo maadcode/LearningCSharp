@@ -2,7 +2,7 @@
 {
     public class Arrays
     {
-        public static void ExampleVector()
+        public static void VectorExample()
         {
             Console.WriteLine("Declare the array with its size");
             string[] countries = new string[5];
@@ -29,7 +29,7 @@
                 Console.WriteLine(country);
             }
         }
-        public static void ExampleMultidimensional()
+        public static void MultidimensionalExample()
         {
             Console.WriteLine("Declare the array multidimensional with its size");
             string[,] countries = new string[2,2];

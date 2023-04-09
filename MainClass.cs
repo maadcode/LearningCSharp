@@ -1,5 +1,6 @@
 ﻿using CursoCSharp.Basic;
 using CursoCSharp.Extras;
+using CursoCSharp.FunctionalProgramming;
 using CursoCSharp.Intermediate;
 using CursoCSharp.NativeLibraries;
 using CursoCSharp.ObjectOrientedProgramming;
@@ -8,63 +9,71 @@ namespace CursoCSharp
 {
     public class MainClass
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args) 
         {
-            //Basics **************************************************************************************************
+            #region Basics
+            //Variables.ImplicitExample();
+            //Variables.ExplicitExample();
 
-            //Variables.ExampleImplicit();
-            //Variables.ExampleExplicit();
+            //Arrays.VectorExample();
+            //Arrays.MultidimensionalExample();
 
-            //Arrays.ExampleVector();
-            //Arrays.ExampleMultidimensional();
+            //Conditionals.IfElseExample();
+            //Conditionals.SwitchExample();
+            //Conditionals.TernaryOperatorExample();
+            //Conditionals.NullCoalescingOperatorExample();
+            //Conditionals.NullCoalescingAssignmentExample();
 
-            //Conditionals.ExampleIfElse();
-            //Conditionals.ExampleSwitch();
-            //Conditionals.ExampleTernaryOperator();
-            //Conditionals.ExampleNullCoalescingOperator();
-            //Conditionals.ExampleNullCoalescingAssignment();
+            //Loops.DoWhileExample();
+            //Loops.WhileExample();
+            //Loops.ForExample();
+            //Loops.ForeachExample();
 
-            //Loops.ExampleDoWhile();
-            //Loops.ExampleWhile();
-            //Loops.ExampleFor();
-            //Loops.ExampleForeach();
+            //Parameters.ObjectExample();
+            //Parameters.ParamsExample();
+            //Parameters.InExample();
+            //Parameters.OutExample();
+            //Parameters.RefExample();
 
-            //Parameters.ExampleWithObject();
-            //Parameters.ExampleWithParams();
-            //Parameters.ExampleWithIn();
-            //Parameters.ExampleWithOut();
-            //Parameters.ExampleWithRef();
+            //Arguments.OptionalArgumentsExample();
+            //Arguments.SpecificNameArgumentsExample();
 
-            //Arguments.ExampleWithOptionalArguments();
-            //Arguments.ExampleWithSpecificNameArguments();
+            //Structures.ConstantsExample();
+            //Structures.ReadonlyExample();
+            #endregion Basics
 
-            //Structures.ExampleWithConstants();
-            //Structures.ExampleWithReadonly();
+            #region Oriented Object Programming
+            //OOP.ObjectsAndClasesExample();
+            //OOP.ConstructorOverloadExample();
+            //OOP.MethodOverloadExample();
+            //OOP.AbstractionExample();
+            //OOP.InheritanceExample();
+            //OOP.EncapsulationExample();
+            //OOP.PolymorphismExample();
+            #endregion Oriented Object Programming
 
-            //POO *****************************************************************************************************
+            #region Native Libraries
+            //Dates.DateManipulationExample();
 
-            //OOPExample.ObjectsAndClasesExample();
-            //OOPExample.ConstructorOverloadExample();
-            //OOPExample.MethodOverloadExample();
-            //OOPExample.AbstractionExample();
-            //OOPExample.InheritanceExample();
-            //OOPExample.EncapsulationExample();
-            //OOPExample.PolymorphismExample();
+            //Files.FileAndDirectoryManipulationExample();
 
-            //Native Libraries ****************************************************************************************
+            //Serializations.ObjectToJsonSerializationExample();
+            //Serializations.JsonToObjectSerializationExample();
 
-            //NativeLibrariesExample.DateManipulationExample();
-            //NativeLibrariesExample.FileAndDirectoryManipulationExample();
+            //await Https.GetMethodExample();
+            //await Https.PostMethodExample();
+            //await Https.PutMethodExample();
+            //await Https.DeleteMethodExample();
+            #endregion Native Libraries
 
-            //Intermediate ********************************************************************************************
-
-            //Collections.ExampleWithList();
-            //Collections.ExampleWithArrayList();
-            //Collections.ExampleWithSortedList();
-            //Collections.ExampleWithDictionary();
-            //Collections.ExampleWithHashtable();
-            //Collections.ExampleWithStack();
-            //Collections.ExampleWithQueue();
+            #region Intermediate
+            //Collections.ListExample();
+            //Collections.ArrayListExample();
+            //Collections.SortedListExample();
+            //Collections.DictionaryExample();
+            //Collections.HashtableExample();
+            //Collections.StackExample();
+            //Collections.QueueExample();
 
             //Exceptions.TryCatchExample();
             //Exceptions.MultipleExceptionExample();
@@ -72,15 +81,27 @@ namespace CursoCSharp
             //Exceptions.CustomExceptionExample();
 
             //Generics.GenericExample();
+            #endregion Intermediate
 
-            //Extras **************************************************************************************************
-
+            #region New Features
             //OthersFeature.StaticLocalFunciontsExample();
             //OthersFeature.UsingDeclarationExample();
 
             //SwitchPattern.PositionalPatternExample();
             //SwitchPattern.TupplePatternExample();
             //SwitchPattern.PropertyPatternExample();
+            #endregion New Features
+
+            #region Functional Programming
+            //Delegates.MethodExample();
+
+            //Funcs.PureFunctionExample();
+            //Funcs.HightOrderMethodExample();
+            //Funcs.CompositionMethodExample();
+
+            //Actions.WithoutParamsExample();
+            //Actions.WithParamsExample();
+            #endregion Functional Programming
         }
     }
 }
