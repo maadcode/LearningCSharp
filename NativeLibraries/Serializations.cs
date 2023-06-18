@@ -1,7 +1,7 @@
-﻿using CursoCSharp.ObjectOrientedProgramming;
+﻿using CSharpFundamentals.ObjectOrientedProgramming;
 using System.Text.Json;
 
-namespace CursoCSharp.NativeLibraries
+namespace CSharpFundamentals.NativeLibraries
 {
     public class Serializations
     {

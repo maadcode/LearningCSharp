@@ -1,6 +1,6 @@
-﻿using CursoCSharp.ObjectOrientedProgramming;
+﻿using CSharpFundamentals.ObjectOrientedProgramming;
 
-namespace CursoCSharp.FunctionalProgramming
+namespace CSharpFundamentals.FunctionalProgramming
 {
     public class Predicates
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace CursoCSharp.Intermediate
+namespace CSharpFundamentals.Intermediate
 {
     public class Collections
     {

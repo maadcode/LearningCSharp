@@ -1,4 +1,4 @@
-﻿namespace CursoCSharp.ObjectOrientedProgramming
+﻿namespace CSharpFundamentals.ObjectOrientedProgramming
 {
     public class Duck : Animal, IFly
     {

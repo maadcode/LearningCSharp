@@ -1,4 +1,4 @@
-﻿namespace CursoCSharp.FunctionalProgramming
+﻿namespace CSharpFundamentals.FunctionalProgramming
 {
     public class Funcs
     {

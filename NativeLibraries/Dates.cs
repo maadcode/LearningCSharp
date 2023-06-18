@@ -1,4 +1,4 @@
-﻿namespace CursoCSharp.NativeLibraries
+﻿namespace CSharpFundamentals.NativeLibraries
 {
     public class Dates
     {

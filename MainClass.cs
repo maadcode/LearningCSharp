@@ -1,11 +1,11 @@
-﻿using CursoCSharp.Basic;
-using CursoCSharp.Extras;
-using CursoCSharp.FunctionalProgramming;
-using CursoCSharp.Intermediate;
-using CursoCSharp.NativeLibraries;
-using CursoCSharp.ObjectOrientedProgramming;
+﻿using CSharpFundamentals.Basic;
+using CSharpFundamentals.Extras;
+using CSharpFundamentals.FunctionalProgramming;
+using CSharpFundamentals.Intermediate;
+using CSharpFundamentals.NativeLibraries;
+using CSharpFundamentals.ObjectOrientedProgramming;
 
-namespace CursoCSharp
+namespace CSharpFundamentals
 {
     public class MainClass
     {

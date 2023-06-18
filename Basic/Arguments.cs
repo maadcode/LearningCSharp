@@ -1,4 +1,4 @@
-﻿namespace CursoCSharp.Basic
+﻿namespace CSharpFundamentals.Basic
 {
     public class Arguments
     {

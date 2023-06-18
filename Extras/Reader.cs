@@ -1,4 +1,4 @@
-﻿namespace CursoCSharp.Extras
+﻿namespace CSharpFundamentals.Extras
 {
     public class Reader : IDisposable
     {

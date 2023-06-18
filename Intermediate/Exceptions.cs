@@ -1,6 +1,6 @@
-﻿using CursoCSharp.Extras;
+﻿using CSharpFundamentals.Extras;
 
-namespace CursoCSharp.Intermediate
+namespace CSharpFundamentals.Intermediate
 {
     public class Exceptions
     {

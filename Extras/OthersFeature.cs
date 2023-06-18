@@ -1,4 +1,4 @@
-﻿namespace CursoCSharp.Extras
+﻿namespace CSharpFundamentals.Extras
 {
     public class OthersFeature
     {
@@ -13,7 +13,7 @@
 
         public static void UsingDeclarationExample()
         {
-            var path = @"C:\Users\Pc\Documents\VS2022 Projects\CursoCSharp\test.txt";
+            var path = @"C:\Users\Pc\Documents\VS2022 Projects\CSharpFundamentals\test.txt";
 
             Console.WriteLine("Without using declaration");
             var response = string.Empty;

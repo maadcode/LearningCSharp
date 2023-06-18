@@ -1,10 +1,10 @@
-﻿namespace CursoCSharp.NativeLibraries
+﻿namespace CSharpFundamentals.NativeLibraries
 {
     public class Files
     {
         public static void FileAndDirectoryManipulationExample()
         {
-            var path = @"C:\Users\Pc\Documents\VS2022 Projects\CursoCSharp\";
+            var path = @"C:\Users\Pc\Documents\VS2022 Projects\CSharpFundamentals\";
             var filePath = path + "test.txt";
 
             var content = File.ReadAllText(filePath);

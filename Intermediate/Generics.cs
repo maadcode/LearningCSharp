@@ -1,4 +1,4 @@
-﻿namespace CursoCSharp.Intermediate
+﻿namespace CSharpFundamentals.Intermediate
 {
     public class Generics
     {
