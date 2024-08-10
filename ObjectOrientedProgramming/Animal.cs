@@ -1,4 +1,4 @@
-﻿namespace CSharpFundamentals.ObjectOrientedProgramming
+namespace CSharpFundamentals.ObjectOrientedProgramming
 {
     public abstract class Animal
     {
@@ -25,6 +25,19 @@
         {
             Name = name;
             _dateOfBirth = dateOfBirth;
+            _color = string.Empty;
+        }
+
+        public Animal(string name)
+        {
+            Name = name.ToUpper();
+            _dateOfBirth = DateTime.Now;
+            _color = string.Empty;
+        }
+        public Animal()
+        {
+            Name = "Sin nombre";
+            _color = string.Empty;
         }
 
         private void Savor()
@@ -41,7 +54,6 @@
         {
             Console.WriteLine("Eating...");
         }
-
         public void Eat(string food)
         {
             Savor();

@@ -1,4 +1,4 @@
-﻿namespace CSharpFundamentals.ObjectOrientedProgramming
+namespace CSharpFundamentals.ObjectOrientedProgramming
 {
     public class OOP
     {
@@ -13,13 +13,14 @@
             var dog1 = new Dog();
             var dog2 = new Dog("Gufy");
             var dog3 = new Dog("Pluto", DateTime.Parse("1/1/2023"));
+            var dog4 = new Dog(DateTime.Now);
         }
 
         public static void MethodOverloadExample()
         {
-            var animal = new Dog();
-            animal.Eat();
-            animal.Eat("pizza");
+            var dog = new Dog();
+            dog.Eat();
+            dog.Eat("pizza");
         }
 
         public static void AbstractionExample()

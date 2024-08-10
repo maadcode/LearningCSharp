@@ -1,12 +1,14 @@
-﻿namespace CSharpFundamentals.FunctionalProgramming
+using System.Linq;
+
+namespace CSharpFundamentals.FunctionalProgramming
 {
     public class Funcs
     {
         public static void PureFunctionExample()
         {
-            Func<int, int, int> multiply = (x, y) => x * y;
-            Console.WriteLine(multiply(11, 22));
-            Console.WriteLine(multiply(11, 22));
+            Func<int, int, int, int> multiply = (x, y, z) => x * y;
+            Console.WriteLine(multiply(11, 22, 5));
+            Console.WriteLine(multiply(11, 22, 5));
         }
 
         public static void HightOrderMethodExample()
@@ -31,14 +33,16 @@
 
         public static void CompositionMethodExample()
         {
-            Func<int, int> doubleFunction = x => x * 2;
-            Func<int, int> sumFunction = x => x + 10;
-
-            Func<Func<int, int>, Func<int, int>, Func<int, int>> compose = (f, g) => x => g(f(x));
-
-            Func<int, int> composedFunction = compose(doubleFunction, sumFunction);
-
-            Console.WriteLine(composedFunction(5));
+            var paises = new List<string> { "Peru", "Mexico", "Argentina", "Paraguay" };
+            var paisesFiltrados = paises
+                .Where(x => x.StartsWith("P"))
+                .Select(x => x.ToUpper())
+                .OrderBy(x => x);
+            foreach (var item in paisesFiltrados)
+                Console.WriteLine(item);
+            Console.WriteLine("--------------------");
+            foreach (var item in paises)
+                Console.WriteLine(item);
         }
     }
 }
